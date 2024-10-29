@@ -37,14 +37,7 @@ Traceback (most recent call last):
   File "<pyshell#21>", line 1, in <module>
     a.update({"course":"python"},{"place":"vja"})
 TypeError: update expected at most 1 argument, got 2
-#setdefault(
 #setdefault()
-a={"year:2025,"month":1}
-   
-SyntaxError: unterminated string literal (detected at line 1)
-a={"year":2025,"month":1}SyntaxError: unterminated string literal (detected at line 1)
-   
-SyntaxError: invalid syntax
 a={"year":2025,"month":1}
    
 a.setdefault("name","Deekshi")
@@ -55,9 +48,6 @@ a
 {'year': 2025, 'month': 1, 'name': 'Deekshi'}
 #pop()
    
-a={"course:"python","place":"vja"}
-   
-SyntaxError: unterminated string literal (detected at line 1)
 a={"course":"python","place":"vja"}
    
 a.pop("place")
